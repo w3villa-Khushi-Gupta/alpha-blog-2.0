@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/khushi/rails/first/spec/user_spec.rb:12 :
+
+     [1;34m7[0m:                 @user2 = [1;34;4mUser[0m.create([35musername[0m:[31m[1;31m"[0m[31mtestuser2[1;31m"[0m[31m[0m,[35mpassword[0m:[31m[1;31m"[0m[31m12345678[1;31m"[0m[31m[0m,[35memail[0m:[31m[1;31m"[0m[31mtestuser2@gmail.com[1;31m"[0m[31m[0m,[35mphone_no[0m:[31m[1;31m"[0m[31m1234567809[1;31m"[0m[31m[0m)
+     [1;34m8[0m:         [32mend[0m
+     [1;34m9[0m:          
+    [1;34m10[0m:         it [31m[1;31m'[0m[31mchecking for the existence of username[1;31m'[0m[31m[0m [32mdo[0m
+    [1;34m11[0m:                 users = [1;34;4mUser[0m.get_all_name
+ => [1;34m12[0m:                 binding.pry
+    [1;34m13[0m:                 expect([1;34;4mUser[0m.get_all_name).to eq [[31m[1;31m"[0m[31mtestuser[1;31m"[0m[31m[0m,[31m[1;31m"[0m[31mtestuser2[1;31m"[0m[31m[0m]
+    [1;34m14[0m:         [32mend[0m
+    [1;34m15[0m:        
+    [1;34m16[0m: 
+    [1;34m17[0m:         [1;34m# it 'checking for valid email addresses' do[0m
+
